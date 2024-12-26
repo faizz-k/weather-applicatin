@@ -113,6 +113,26 @@ button:hover {
     background-color: #45a049;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0.5rem;
+    /* color: linear-gradient(135deg, #6e7aeb, #a3b8fc); */
+
+
+}
+
+footer p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #a3b8fc;
+    font-weight: bold;
+} 
+
 
 @media (max-width: 768px) {
     .container {
